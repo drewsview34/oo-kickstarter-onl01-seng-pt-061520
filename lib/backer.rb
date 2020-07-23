@@ -5,7 +5,9 @@ class Backer
   def initialize(name)
     @name = name
     @backed_projects = []
-    
   end
   
+  self backed_project(project)
+    @backed_project << project
+  end
 end 
